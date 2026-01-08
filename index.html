@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="weather.css" />
+</head>
+
+<body>
+    <div class="app-wrap">
+        <header>
+            <input 
+                type="text" 
+                autocomplete="off" 
+                class="search-box" 
+                placeholder="Search for a city..." 
+            />
+        </header>
+
+        <main>
+            <!-- Location -->
+            <section class="location">
+                <div class="city">New Delhi, INDIA</div>
+                <div class="date">Wednesday 07 Jan 2026</div>
+            </section>
+
+            <!-- Current Weather -->
+            <div class="current">
+                <div class="temp">15<span>°c</span></div>
+                <div class="weather">Sunny</div>
+                <div class="hi-low">13°c / 16°c</div>
+            </div>
+
+            <!-- Extra Weather Info -->
+            <div class="extra">
+                <div class="feels-like">Feels like: --°c</div>
+                <div class="humidity">Humidity: --%</div>
+                <div class="wind">Wind: -- m/s</div>
+            </div>
+
+            <!-- 5 Day Forecast -->
+            <section class="forecast">
+                <h3>5 Day Forecast</h3>
+                <div class="forecast-days">
+                    <!-- JS will inject forecast cards here -->
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="weather.js"></script>
+</body>
+
+</html>
