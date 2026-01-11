@@ -21,7 +21,7 @@ A simple and responsive weather application built using **HTML, CSS, and JavaScr
 - **OpenWeatherMap API**
 - **GitHub Pages** (for deployment)
 
-## 🚀 How to Run Locally
+## How to Run Locally
 1. Clone the repository:
    ```bash
    git clone https://github.com/BOBDE07/weather-app-js.git
